@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "webpack-dev-server --mode development --live-reload"
+    "dev": "webpack-dev-server --mode development --live-reload",
+    "build:prod": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
